@@ -1,10 +1,21 @@
-import MyComponent from "./components/MyComponent";
+import ProfileCard from "./components/ProfileCard";
+import Counter from"./components/Counter";
+import UserFrom from"./components/UserFrom";
+import LoginStatus from "./components/LoginStatus";
+
 
 function App() {
   return (
     <div>
-      <MyComponent />
-  
+      <ProfileCard
+      name="Sapna"
+      age={19}
+      course="AI & ML"
+      />
+      <Counter />
+      <UserFrom />
+      <LoginStatus />
+     
 
     </div>
   );
